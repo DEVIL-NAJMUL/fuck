@@ -199,7 +199,7 @@ def menu(my_name,my_id):
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
 	except IOError:
-		print('[├Ч] Cookies Error  ')
+		print('[🥲] Cookies Error  ')
 		time.sleep(5)
 		login_lagi334()
 	os.system('clear')
@@ -208,7 +208,7 @@ def menu(my_name,my_id):
 	cetak(nel('\tWELCOM [green]%s[purple] LOGIN USER'%(my_name)))
 	alvino_xy(f'{u}ID  : '+str(my_id))
 	alvino_xy(f'{h}IP  : {ip}')
-	cetak(nel('\t[bold cyan]           тАв CHOOSE CLONING MENU тАв [/bold cyan]'))
+	cetak(nel('\t[bold cyan]           CHOOSE CLONING MENU  [/bold cyan]'))
 	print('')
 	cetak(nel('[bold green]  1. CRACK PUBLIK ID\n  2. CHEK RESULTS\n 0. EXIT [bold green]')) 
 	_____cowok__DEVIL_____ = input('\n CHOOSE : ')
